@@ -24,7 +24,8 @@ end
 def find_the_cheese (all_snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  all_snacks.detect?{|snack| cheese_types.include? snack} ? true : nil
+  all_snacks.detect?{|snack| cheese_types.include? snack}
+  #? true : nil
    
 
 end
